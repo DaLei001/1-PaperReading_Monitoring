@@ -129,6 +129,9 @@ Authors: Bernhard, J., Esterle, K., Hart, P., & Kessler, T.
 
   **[**`Fault detection`; `Fault identification`; `Process monitoring`; `Chemometrics methods`; `Causal map`; `Multivariate statistics`**]**
 
+<details>
+  <summary>Click to expand</summary>
+
 | ![image-20211227151447024](../../../../Local_Software_File/Typora_File/DaleiFile/PicTotal/image-20211227151447024.png) |
 | :----------------------------------------------------------: |
 | *The **`ObservedWorld` model**, reflects the `world` that is perceived by an agent. **Occlusions** and **sensor noise** can be introduced in it. The **`simultaneous movement`** makes **simulator planning cycles** entirely **deterministic**. [Source](https://arxiv.org/abs/2003.02604).* |
@@ -145,3 +148,5 @@ Authors: Chiang, L. H.; Braatz, R. D.
 - 
 
 Authors: Chiang, L. H.; Braatz, R. D.
+
+</details>
