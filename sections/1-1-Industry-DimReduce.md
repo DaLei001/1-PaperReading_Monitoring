@@ -1,4 +1,4 @@
-# 3-1-AMS-DataDriven
+# 1-1-Industry-DimReduce
 
 ## Example:
 
@@ -17,7 +17,7 @@
   <summary>Click to expand</summary>
 
 
-| ![image-20211227151447024](../../../../Local_Software_File/Typora_File/DaleiFile/PicTotal/image-20211227151447024.png) |
+| ![image-20211227151447024](../../../../Local_Software_File/Typora_File/DaleiFile/7-PicTotal/image-20211227151447024.png) |
 | :----------------------------------------------------------: |
 | *The **`ObservedWorld` model**, reflects the `world` that is perceived by an agent. **Occlusions** and **sensor noise** can be introduced in it. The **`simultaneous movement`** makes **simulator planning cycles** entirely **deterministic**. [Source](https://arxiv.org/abs/2003.02604).* |
 

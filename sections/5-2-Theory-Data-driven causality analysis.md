@@ -1,4 +1,4 @@
-# 3-1-AMS-DataDriven
+# 5-2-Theory-Data-driven causality analysis
 
 ## Example:
 
@@ -15,6 +15,7 @@
 
 <details>
   <summary>Click to expand</summary>
+
 
 
 | ![image-20211227151447024](../../../../Local_Software_File/Typora_File/DaleiFile/PicTotal/image-20211227151447024.png) |
@@ -113,3 +114,34 @@ Authors: Bernhard, J., Esterle, K., Hart, P., & Kessler, T.
 
 ---
 
+## 一、2022-01-08-Data-driven causality analysis
+
+以下论文是通过web of science 核心合集搜索关键词：`Data-driven ("causality" OR "causal") analysis` 得到的439篇论文，另外加上8篇自己找到的相关文献，共447篇，经过两轮筛选之后还剩下98篇可能比较重要的相关文献。
+
+
+
+**`"Process monitoring using causal map and multivariate statistics: fault detection and identification"`**
+
+中文标题：使用因果图和多变量统计的过程监控：故障检测和识别
+
+- **[** `2003` **]**
+  **[** :mortar_board: `University ofIllinois at Urbana-Champaign（伊利诺斯大学厄巴纳-香槟分校）` **]**
+
+  **[**`Fault detection`; `Fault identification`; `Process monitoring`; `Chemometrics methods`; `Causal map`; `Multivariate statistics`**]**
+
+| ![image-20211227151447024](../../../../Local_Software_File/Typora_File/DaleiFile/PicTotal/image-20211227151447024.png) |
+| :----------------------------------------------------------: |
+| *The **`ObservedWorld` model**, reflects the `world` that is perceived by an agent. **Occlusions** and **sensor noise** can be introduced in it. The **`simultaneous movement`** makes **simulator planning cycles** entirely **deterministic**. [Source](https://arxiv.org/abs/2003.02604).* |
+
+| ![image-20211227151457905](../../../../Local_Software_File/Typora_File/DaleiFile/PicTotal/image-20211227151457905.png) |
+| :----------------------------------------------------------: |
+| *Two evaluations. Left: **Robustness** of the `planning` model against the `transition function`. The **scenario's density** is increased by reducing the **`time headway`** `IDM` parameters of interacting vehicles. **Inaccurate prediction model** impacts the performance of an `MCTS` (`2k`, `4k`, and `8k` search iterations) and `RL`-based (`SAC`) planner. Right: an **agent from the dataset is replaced** with various agent behaviour models. Four different parameter sets for the `IDM`. Agent sets `A0`, `A1`, `A2`, `A6` are not replaced with the `IDM` since this model **cannot change lane**. **Maintaining a specific order** is key for `merging`, but without fine-tuning model parameters, **most behaviour models fail to coexist next to replayed agents**. [Source](https://arxiv.org/abs/2003.02604).* |
+
+Authors: Chiang, L. H.; Braatz, R. D.
+
+- Motivations:
+
+  - There is an inherent limitation on the ability for `purely data-driven (纯数据驱动)` techniques to identify and and diagnose faults, especially when the abnormal situations are associated with `unknown faults` or `multiple faults`.
+- 
+
+Authors: Chiang, L. H.; Braatz, R. D.
