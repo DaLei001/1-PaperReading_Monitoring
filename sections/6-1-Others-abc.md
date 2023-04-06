@@ -121,25 +121,28 @@ Authors: Bernhard, J., Esterle, K., Hart, P., & Kessler, T.
 
 **`"使用临床时间串行数据进行多任务学习和基准测试"`**
 
-- **[** `2019`**]**
-  **[[:memo:](https://www.nature.com/articles/s41597-019-0103-9.pdf)]**
-  [[:octocat:](https://bark-simulator.github.io/)]
-  **[** :mortar_board: `Technische Universität München` **]**
-  **[** :car: `Fortiss`, `AID` **]**
-
-- **[** _`behavioural models`, `robustness`, `open-loop simulation`, `behavioural simulation`, `interactive human behaviors`_ **]**
-
-- 【2019】【[:memo:](https://www.nature.com/articles/s41597-019-0103-9.pdf)】【[:octocat:](https://bark-simulator.github.io/)】【 :mortar_board: `Technische Universität München` 】【:car: `Fortiss`, `AID` 】
-
+- 【2019】【[:memo:](https://www.nature.com/articles/s41597-019-0103-9.pdf)】【[:gear:]()】【 :mortar_board: `USC Information Sciences Institute,` 】【:car: `MIMIC-III` 】
 - 【_`behavioural models`, `robustness`, `open-loop simulation`, `behavioural simulation`, `interactive human behaviors`_】
 
 <details>
   <summary>Click to expand</summary>
-123
++ **摘要：**
+
+  1. <u>*动机*</u>：缺乏公开可用的基准数据集，机器学习在医疗保健研究方面的进展一直难以衡量。
+
+  2. <u>*方法*</u>：使用来自公开的重症监护医学信息市场（MIMIC-III）数据库的数据提出了四个临床预测基准。些任务涵盖了一系列临床问题，包括死亡风险建模、预测住院时间、检测生理衰退和表型分类。
+
+     > "in-hospital mortality, physiologic decompensation, length of stay (LOS), and phenotype classification."
+
++ 
 
 </details>
 
 ---
+
+
+
+
 
 
 
