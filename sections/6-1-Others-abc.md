@@ -126,7 +126,8 @@ Authors: Bernhard, J., Esterle, K., Hart, P., & Kessler, T.
 
 <details>
   <summary>Click to expand</summary>
-+ **摘要**
+
++  **摘要**
 
   1. <u>*动机*</u>：缺乏公开可用的基准数据集，机器学习在医疗保健研究方面的进展一直难以衡量。
 
