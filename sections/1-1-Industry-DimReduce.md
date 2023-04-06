@@ -113,4 +113,3 @@ Authors: Bernhard, J., Esterle, K., Hart, P., & Kessler, T.
 
 ---
 
-![image-20230406161248802](https://raw.githubusercontent.com/DaLei001/DaleiPic/main/202304061613064.png)
