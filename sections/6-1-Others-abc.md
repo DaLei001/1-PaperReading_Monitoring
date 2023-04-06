@@ -17,11 +17,11 @@
   <summary>Click to expand</summary>
 
 
-| ![image-20211227151447024](../../../../Local_Software_File/Typora_File/DaleiFile/PicTotal/image-20211227151447024.png) |
+| ![image-20211227151447024](https://raw.githubusercontent.com/DaLei001/DaleiPic/main/202304061649630.png) |
 | :----------------------------------------------------------: |
 | *The **`ObservedWorld` model**, reflects the `world` that is perceived by an agent. **Occlusions** and **sensor noise** can be introduced in it. The **`simultaneous movement`** makes **simulator planning cycles** entirely **deterministic**. [Source](https://arxiv.org/abs/2003.02604).* |
 
-| ![image-20211227151457905](../../../../Local_Software_File/Typora_File/DaleiFile/PicTotal/image-20211227151457905.png) |
+| ![image-20211227151457905](https://raw.githubusercontent.com/DaLei001/DaleiPic/main/202304061649632.png) |
 | :----------------------------------------------------------: |
 | *Two evaluations. Left: **Robustness** of the `planning` model against the `transition function`. The **scenario's density** is increased by reducing the **`time headway`** `IDM` parameters of interacting vehicles. **Inaccurate prediction model** impacts the performance of an `MCTS` (`2k`, `4k`, and `8k` search iterations) and `RL`-based (`SAC`) planner. Right: an **agent from the dataset is replaced** with various agent behaviour models. Four different parameter sets for the `IDM`. Agent sets `A0`, `A1`, `A2`, `A6` are not replaced with the `IDM` since this model **cannot change lane**. **Maintaining a specific order** is key for `merging`, but without fine-tuning model parameters, **most behaviour models fail to coexist next to replayed agents**. [Source](https://arxiv.org/abs/2003.02604).* |
 
