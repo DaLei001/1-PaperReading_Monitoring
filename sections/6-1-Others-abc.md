@@ -121,11 +121,12 @@ Authors: Bernhard, J., Esterle, K., Hart, P., & Kessler, T.
 
 **`"使用临床时间串行数据进行多任务学习和基准测试"`**
 
-- 【2019】【[:memo:](https://www.nature.com/articles/s41597-019-0103-9.pdf)】【[:gear:]()】【 :mortar_board: `USC Information Sciences Institute,` 】【:car: `MIMIC-III` 】
-- 【_`behavioural models`, `robustness`, `open-loop simulation`, `behavioural simulation`, `interactive human behaviors`_】
+- 【2019】【[:memo:](https://www.nature.com/articles/s41597-019-0103-9.pdf)】【[:gear:]()https://zenodo.org/record/1306527】【 :mortar_board: `USC Information Sciences Institute,` 】【:car: `MIMIC-III` 】
+- 【_`clinical time series data`, `electronic health records`, `MIMIC-III`, `heterogeneous multitask learning`,`Multivariate time series`_】
 
 <details>
   <summary>Click to expand</summary>
+
 
 +  **摘要**
 
@@ -135,7 +136,35 @@ Authors: Bernhard, J., Esterle, K., Hart, P., & Kessler, T.
 
      > "in-hospital mortality, physiologic decompensation, length of stay (LOS), and phenotype classification."
 
-+ 
++ **问题描述**
+
+  1. `异构多任务学习`问题：
+
+     > "This setup of benchmarks allows to formulate a `heterogeneous multitask learning problem` that involves jointly learning all four prediction tasks simultaneously." 这种基准设置允许制定一个异构多任务学习问题，该问题涉及同时共同学习所有四个预测任务。
+
+  2. 具体来说：
+
+     > "These tasks vary in not only output type but also temporal structure: LOS involves a regression at each time step, while in-hospital mortality risk is predicted once early in admission. Their heterogeneous nature requires a modeling solution that can not only handle sequence data but also model correlations between tasks distributed in time. We demonstrate that carefully designed recurrent neural networks are able to exploit these correlations to improve the performance for several tasks." 这些任务不仅在输出类型上有所不同，而且在时间结构上也有所不同：LOS (length of stay) 涉及每个时间步的回归，而院内死亡风险 (in-hospital mortality risk) 是入院早期一次性预测。它们的异构性质需要一种建模解决方案，该解决方案不仅可以处理串行数据，还可以对按时间分布的任务之间的相关性进行建模。我们证明精心设计的循环神经网络能够利用这些相关性来提高多项任务的性能。”
+  
++ **数据**
+
+  > "We compile a subset of the MIMIC-III database containing more than 31 million clinical events that correspond to 17 clinical variables listed in the first column of Table 1. These events cover 42276 ICU stays of 33798 unique patients. We define four benchmark tasks on this subset."我们编制了MIMIC-III数据库的一个子集，其中包含超过3100万个临床事件，对应于表1第一列中列出的17个临床变量。这些事件涵盖了 33798 名独特患者的 42276 次 ICU 住院。我们在此子集上定义了四个基准任务。
+  >
+  > + `17个临床变量`：Capillary refill rate(毛细管再充盈率)，Diastolic blood pressure(舒张压)，Fraction inspired oxygen(馏分吸入氧气)，Glascow coma scale eye opening(格拉斯哥昏迷指数睁眼反应)，Glascow coma scale motor response(格拉斯哥昏迷指数运动反应)，Glascow coma scale total(格拉斯哥昏迷指数)，Glascow coma scale verbal response(格拉斯哥昏迷指数说话反应)，Glucose(葡萄糖)，Heart Rate(心率)，Height(身高)，Mean blood pressure(平均血压)，Oxygen saturation(血氧饱和度)，Respiratory rate(呼吸率)，Systolic blood pressure(收缩压)，Temperature(温度)，Weight(体重)，pH
+
+  | ![image-20230407091827552](https://raw.githubusercontent.com/DaLei001/DaleiPic/main/202304070921606.png) |
+  | ------------------------------------------------------------ |
+  | 17个选定的临床变量。第二列显示来自 MIMIC-III 数据库的变量的源表。第三列列出了我们在插补步骤中基线中使用的“正常”值，第四列描述了基于 LSTM 的基线如何处理变量。 |
+
+  
+
++ **基准任务**
+
+
+
+
+
+
 
 </details>
 
