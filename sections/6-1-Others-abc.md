@@ -121,8 +121,8 @@ Authors: Bernhard, J., Esterle, K., Hart, P., & Kessler, T.
 
 **`"使用临床时间串行数据进行多任务学习和基准测试"`**
 
-- 【2019】【[:memo:](https://www.nature.com/articles/s41597-019-0103-9.pdf)】【[:gear:]()https://zenodo.org/record/1306527】【 :mortar_board: `USC Information Sciences Institute,` 】【:car: `MIMIC-III` 】
-- 【_`clinical time series data`, `electronic health records`, `MIMIC-III`, `heterogeneous multitask learning`,`Multivariate time series`_】
+- 【2019】【[:memo:](https://www.nature.com/articles/s41597-019-0103-9.pdf)】【[:gear:](https://zenodo.org/record/1306527)】【 :mortar_board: `USC Information Sciences Institute` 】【:car: `MIMIC-III` 】
+- 【_`clinical time series data`, `electronic health records`, `MIMIC-III`, `heterogeneous multitask learning`,`multivariate time series`_】
 
 <details>
   <summary>Click to expand</summary>
